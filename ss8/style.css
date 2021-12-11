@@ -1,0 +1,39 @@
+/* Khi bắt đầu code web: ép kiểu trang web */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .text-box {
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+    font-size: x-large;
+  }
+  
+  /* toàn bộ thẻ input nào là con của thẻ có class ="text-box"  */
+  
+  .text-box input {
+    padding: 5px 10px;
+    /* trên/dưới  trái/phải*/
+  }
+  
+  .text-box span {
+    cursor: pointer;
+  }
+  
+  /* .form-register {
+    display: none;
+  } */
+  
+  /* Tạo ra 1 class với thuộc tính display: none */
+  
+  .displayNone {
+    display: none;
+    /* //dùng để ẩn đi thẻ có chứa thuộc tính này */
+  }

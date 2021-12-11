@@ -1,0 +1,57 @@
+Kiểu dữ liệu object,object dùng để làm j
+Giới thiệu về function(hàm)và ứng dụng của nó
+sử dụng Hàm ,object để tương tác với web(form đăng ký đăng nhập)
+=>lấy ra đc thông tin người dùng
+
+
+
+js có 5 kiểu dữ liệu:Number,String,Boolean(true,false),Underfined,Null và 1 số kiểu khác nữa đó là Object(KDL phức hợp)
+  
+
+
+
+  Object là j:
+  là 1 thực thể độc lập vs thuộc tings và Kiểu
+  +Thuộc tính là 1 cặp khóa -gtri chứa tên và giá trị
+  +Tên thuộc tính là  1 giá trị duy nhất có thẻ bị ép buộc vào 1 chuỗi và trỏ đến 1 gtri
++Gtri thuộc tính :có thể là bất cú giá trị nào,bao gồm các đối tượng khác nhau và cả hàm  đc liên kết vs tên/khóa.
++Thuộc tính là
+
+1.tạo đóip tượng:
+c1: sd từ khóa {}(nên dùng)
+c2:sd từ khóa new object()
+c3:sử dụng static
+
+Function(Hàm trong javascript)
++định nghĩa hàm:Chức năng,gọi chung là 1 chương trình con có thể gọi tới bên ngoài or bên trong chính nó.
+-Khai báo hàm :Sử dụng từ khóa "Function", theo sau nó là:
+
+Tên hàm: Tên hàm được đặt thêm theo camel case ()
+Danh sách các tham số truyền vào hàm, được đặt trong ngoặc đơn và cách nhau bởi dấu "," + Các câu lệnh JS để tạo ra 1 hàm, được đặt trong ngoặc nhọn {...} VD: ...
+làm thế nào để chương trình con này chạy được.
+
+Hàm sẽ chạy được khi: ta gọi tới hàm.
+
+Hàm có và không trả về giá trị trong JS. Có 2 loại hàm như sau
+
+Đối với hàm có giá trị trả về, ta dùng từ khóa "return"
+Đối với hàm không có giá trị trả về, ta không dùng từ khóa "return"
+Lưu ý
+
+Hàm được tạo ra thường để trả về kết quả gì đó thông qua từ khóa "return".
+Khi câu lệnh "return" được chạy. => ta thoát hàm ngay cả khi hàm chưa xong hết
+
+
+
+khái niệm Dom và tác dụng của javascript để tương tác với trang web:
+
+DOM là gì? Document Object Model - Dịch ra: Mô hình các đối tượng tài liệu. Là một chuẩn được định nghĩa bởi W3C (tổ chức web toàn cầu - World Wide Web).
+DOM được dùng để truy xuất và thao tác trên các tài liệu có cấu trúc dạng HTML hay XML bằng các ngôn ngữ lập trình thông dụng như Javascript, PHP, ....
+=> NX sơ đồ: THấy được toàn bộ các thẻ HTML sẽ được quản lý bởi đối tượng Document. Thẻ cao nhất là thẻ , tiếp theo là phân nhánh và . Bên trong thì có những thẻ như <style>, <title>,.. và bên trong thẻ thì là vô số các thẻ HTML khác. ==> Như vậy trong JS, để thao tác với các thẻ HTML ta phải thông qua đối tượng document.
+
+Phương thức thao tác với HTML by Javascript:
+
+getElementById("id"): Tham chiếu tới 1 thẻ có id giống với id cần tìm
+querySelector(".container"); với querySelecto ta có thể lấy được bất kỳ thẻ nào có id , class sao cho thỏa mãn điều kiện,
+với id => ta thêm # vào trước tên
+với class => ta thêm . vào trước tên

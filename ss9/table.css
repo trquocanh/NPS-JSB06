@@ -1,0 +1,42 @@
+/* style cho bảng của mình nhé */
+
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    width: 1000px;
+    height: 20px;
+    text-align: center;
+  }
+  /* Khi bắt đầu code web: ép kiểu trang web */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.text-box {
+  margin-right: 20px;
+}
+
+
+/* toàn bộ thẻ input nào là con của thẻ có class ="text-box"  */
+
+.text-box input {
+  padding: 5px 5px;
+  
+}
+
+
+.text-box span {
+  cursor: pointer ;
+}
+
+
+
+.displayNone {
+  display: none;
+  
+}
+  
+ 

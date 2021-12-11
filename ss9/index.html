@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- nhúng file table.css vào trong html -->
+  <link rel="stylesheet" href="./table.css">
+</head>
+
+<body>
+
+  <!-- code thời khóa biểu THCS -->
+  <div class="container">
+
+    <table id='first'>
+
+      <caption><b>BUỔI SÁNG</b></caption>
+
+      <!-- tạo ra hàng đầu tiên -->
+      <tr>
+        <th>THỜI GIAN</th>
+        <th>Thứ 2</th>
+        <th>Thứ 3</th>
+        <th>Thứ 4</th>
+        <th>Thứ 5</th>
+        <th>Thứ 6</th>
+        <th>Thứ 7</th>
+      </tr>
+
+      <!-- tạo ra hàng thứ 2 -->
+      <tr>
+        <td>7h15-7h50</td>
+        <td>Chào cờ</td>
+        <td>Tiếng việt</td>
+        <td>Tiếng việt</td>
+        <td>Toán</td>
+        <td>Âm nhạc</td>
+        <td rowspan="6">Nghỉ</td>
+      </tr>
+      <!-- tạo ra hàng thứ 3 -->
+      <tr>
+        <td>7h55-8h30</td>
+        <td>Tiếng việt</td>
+        <td>Tiếng việt</td>
+        <td>Tiếng việt</td>
+        <td>Thể dục</td>
+        <td>Tiếng việt</td>
+      </tr>
+      <!-- tạo ra hàng thứ 4 -->
+      <tr>
+        <td>8h30-8h50</td>
+        <td colspan="5">RA CHƠI</td>
+
+      </tr>
+      <!-- tạo ra hàng thứ 5 -->
+      <tr>
+        <td>8h50-9h25</td>
+        <td>Tiếng việt</td>
+        <td>Mỹ thuật</td>
+        <td>Toán</td>
+        <td>Tiếng việt</td>
+        <td>Tiếng việt</td>
+      </tr>
+      <!-- tạo ra hàng thứ 6 -->
+      <tr>
+        <td>9h30-710h05</td>
+        <td>Toán</td>
+        <td>Toán</td>
+        <td>Thủ công</td>
+        <td>Tiếng việt</td>
+        <td>HĐNKLL</td>
+      </tr>
+      <!-- tạo ra hàng thứ 7 -->
+      <tr>
+        <td>10h10-10h45</td>
+        <td>Đạo đức</td>
+        <td>Tự nhiên-Xã hội</td>
+        <td colspan="2"></td>
+        <!-- <td>Chào cờ</td> -->
+        <td>SHL</td>
+      </tr>
+    </table>
+  </div>
+  <div class="container2">
+    <table id="twice">
+      <caption><b>BUỔI SÁNG</b></caption>
+
+      <!-- tạo ra hàng đầu tiên -->
+      <tr>
+        <th>THỜI GIAN</th>
+        <th>Thứ 2</th>
+        <th>Thứ 3</th>
+        <th>Thứ 4</th>
+        <th>Thứ 5</th>
+        <th>Thứ 6</th>
+        <th>Thứ 7</th>
+      </tr>
+
+      <!-- tạo ra hàng thứ 2 -->
+      <tr>
+        <td>13h45-14h20</td>
+        <td>Rèn TV</td>
+        <td>Rèn toán</td>
+        <td>Rèn TV</td>
+        <td>Rèn toán</td>
+        <td>Tiếng anh</td>
+        <td rowspan="6">Nghỉ</td>
+      </tr>
+      <!-- tạo ra hàng thứ 3 -->
+      <tr>
+        <td>14h25-15h00</td>
+        <td>Rèn TV</td>
+        <td>Rèn toán</td>
+        <td>Rèn TV</td>
+        <td>Rèn toán</td>
+        <td>Tiếng anh</td>
+        
+      </tr>
+      <!-- tạo ra hàng thứ 4 -->
+      <tr>
+        <td>15h00-15h15</td>
+        <td colspan="5">RA CHƠI</td>
+
+      </tr>
+      <!-- tạo ra hàng thứ 5 -->
+      <tr>
+        <td>15h20-16h00</td>
+        <td>AEROBIC</td>
+        <td>Rèn chữ đẹp</td>
+        <td>Rèn KNS</td>
+        <td>Rèn chữ đẹp</td>
+        <td>SHL</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div class="container">
+
+    <div class="form-register">
+
+     
+      <br>
+
+      <form id="register-form">
+
+        <div class="text-box">
+          <h4>Name</h4>
+          <input type="text" name="Name" >
+        </div>
+
+        <div class="text-box">
+          <h4>Email</h4>
+          <input type="text" name="Email" >
+        </div>
+
+        
+        <div class="text-box">
+          <h4>Website</h4>
+          <input type="website" name="website" >
+
+        </div>
+
+        <div class="text-box">
+          <h4>Comment</h4>
+          <input type="comment" name="comment" >
+        </div>
+
+        <div class="text-box">
+          <h4>Gender</h4>
+          <span id="Female" onclick="Female()">female</span>
+          <button type=""></button>
+          <span id="Male" onclick="Male()">male</span>
+          <button type=""></button>
+          <span id="Other" onclick="Other()">Other</span>
+          <button type=""></button>
+        </div>
+
+      </form>
+
+    </div>
+
+        <div class="text-box">
+          <span id="Submit" onclick="Submit()"></span>
+          <button type="submit">Submit</button>
+        </div>
+
+      </form>
+
+    </div>
+    <script src="app.js"></script>
+
+
+  </div>
+
+
+</body>
+
+</html>
